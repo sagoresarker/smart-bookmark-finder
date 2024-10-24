@@ -38,7 +38,7 @@ function displayBookmarks(bookmarks, panel) {
         <h2>Related Bookmarks (${bookmarks.length})</h2>
       </div>
       <div class="header-controls">
-        <button id="minimize-btn" title="Minimize">_</button>
+        <button id="minimize-btn" title="Minimize">─</button>
         <button id="close-btn" title="Close">×</button>
       </div>
     </div>
@@ -56,7 +56,6 @@ function displayBookmarks(bookmarks, panel) {
     </div>
   `;
 
-  // Add event listeners for controls
   const minimizeBtn = panel.querySelector('#minimize-btn');
   const closeBtn = panel.querySelector('#close-btn');
   const restoreBtn = document.getElementById('restore-button');
@@ -102,5 +101,4 @@ function init() {
   }
 }
 
-// Initialize when page loads
 init();
