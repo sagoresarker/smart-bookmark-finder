@@ -2,6 +2,10 @@
 
 Smart Bookmark Finder is a Chrome extension that displays relevant bookmarks alongside your Google search results. It helps you quickly access your already added items in your bookmarks related to your current search query.
 
+## Minimal UI (for personal use only)
+![Screenshot](/images/minimal-ui.png)
+*Minimal UI*
+
 ## Features
 
 - **Sidebar Display:** Shows a sidebar with related bookmarks when you perform a Google search.
